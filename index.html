@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evo . CSS</title>
+    <link rel="icon" href="./images/abaicone.png">
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./CSS/CSS1.css">
+    <link rel="stylesheet" href="./CSS/css2.css">
+    <link rel="stylesheet" href="./CSS/CSS3.css">
+    <link rel="stylesheet" href="./CSS/global.css">
+    <link rel="stylesheet" href="./CSS/header.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img src="./images/css.webp" alt="logo CSS com background">
+        <h1>Cascading Style Sheet</h1>
+        <p>Nesta página, exploraremos a evolução do CSS ao longo do tempo, desde sua criação até as versões mais
+            modernas. Veremos como essa linguagem de estilo surgiu, as melhorias que cada atualização trouxe e como ela
+            se tornou essencial para o design e a experiência do usuário na web.</p>
+        <h3>Glauber. M. S. Müller</h3>
+        </div>
+    </header>
+
+    <section class="css1">
+        <div class="resumoCSS1">
+            <h2>CSS 1</h2>
+            <p>O Cascading Style Sheets, ou Folha de Estilo em Cascatas (CSS) foi proposto pela primeira vez em Outubro
+                de
+                1994, por Hakon Lie. Ele foi ganhar destaque por meados de 1998, porém sua criação veio um pouco antes,
+                em 1995,
+                um grupo de empresas do ramo da informática, W3C, desenvolveu o CSS1. Antes de sua criação, o HTML era a
+                única
+                base para a criação de sites, na época de popularização do CSS1, o HTML estava na sua versão 4.0, que
+                até então,
+                era a única maneira dos programadores adaptarem ou personalizarem o layout de sua página. Sua principal
+                função é
+                facilitar a programação da aparência das web páginas, transformando o HTML em uma linguagem mais para a
+                estruturação.</p>
+        </div>
+        <div class="imagensCSS1">
+            <img src="./images/hakon.jpg" alt="">
+            <img src="./images/w3c.jpg" alt="">
+        </div>
+        <div class="codeContainer">
+            <pre><code>
+            <span class="exemploCodigo">// Exemplo de propriedades usadas nesta versão//</span>
+
+            <span class="seletorCodigo">body</span> {
+                background-color: <span class="valorCodigo">#f0f0f0</span>;
+                color: <span class="valorCodigo">#333333</span>;
+                font-family:<span class="valorCodigo"> Arial, sans-serif</span>;
+            }
+            
+            <span class="seletorCodigo">h1</span>{
+                font-size: <span class="valorCodigo">24px</span>;
+                color:<span class="valorCodigo"> #0056b3</span>;
+                text-align: <span class="valorCodigo">center</span>;
+                margin-top: <span class="valorCodigo">50px</span>;
+            }
+            
+            <span class="seletorCodigo"> p </span>{
+                font-size: <span class="valorCodigo">16px</span>;
+                color: <span class="valorCodigo">#666666</span>;
+                text-align: <span class="valorCodigo">center</span>;
+                margin-top: <span class="valorCodigo">20px</span>;
+                padding: <span class="valorCodigo">10px</span>;
+                background-color: <span class="valorCodigo">#ffffff</span>;
+            }
+
+            <span class="seletorCodigo"> h4 </span>{
+                font-size: <span class="valorCodigo">24px</span>;
+                color: <span class="valorCodigo">#000</span>;
+                text-align: <span class="valorCodigo">start</span>;
+            }
+            </code></pre>
+        </div>
+    </section>
+    <section class="css2">
+        <div class="titulo">
+            <h2>css 2</h2>
+            <h3>1998</h3>
+        </div>
+        <div class="conteudo">
+            <div>
+                <h3>Seleção de Elementos</h3>
+
+                <p>Seleção de elementos no CSS permite identificar e estilizar partes específicas do HTML. Isso pode ser
+                    feito através de diferentes seletores, como os seletores de ID, que são usados para estilizar um
+                    único elemento específico; seletores de classe, que permitem estilizar múltiplos elementos com a
+                    mesma classe; e seletores descendentes, que aplicam estilos apenas a elementos dentro de um
+                    determinado pai.</p>
+            </div>
+
+            <div>
+                <h3> Modelo de Caixa (Box Model)</h3>
+
+                <p>O Box Model define como os elementos ocupam espaço e interagem com outros na página. Ele é composto
+                    por diferentes camadas: o padding, que cria um espaço entre o conteúdo e a borda do elemento; a
+                    border, que é a linha ao redor do elemento e pode ter diferentes espessuras e estilos; e a margin,
+                    que define o espaço externo, separando o elemento dos demais ao redor.</p>
+            </div>
+
+            <div>
+                <h3>Tipografia e Cores no CSS</h3>
+
+                <p> A tipografia e as cores no CSS permitem a personalização do texto. É possível definir fontes
+                    específicas usando font-family, ajustar o tamanho e o peso das letras com font-size e font-weight,
+                    além de controlar o espaçamento entre caracteres e linhas com letter-spacing e line-height.</p>
+            </div>
+        </div>
+        <section class="codeCSS2">
+            <div class="codeContainer">
+                <pre><code>
+            <span class="exemploCodigo">// Exemplo de modelos de caixa junto de seleção//</span>
+
+            <span class="seletorCodigo">#containerHeader</span> {
+                max-width: <span class="valorCodigo">500px</span>;
+                width: <span class="valorCodigo">50vw</span>;
+                margin:<span class="valorCodigo"> 1rem</span>;
+                padding:<span class="valorCodigo"> 1rem 3rem</span>;
+            }
+            
+            <span class="seletorCodigo">.containerSecundario</span>{
+                border: <span class="valorCodigo">4px solid #ffffff</span>;
+                border-radius:<span class="valorCodigo"> 2rem</span>;
+                padding: <span class="valorCodigo">.5rem</span>;
+                margin: <span class="valorCodigo">0 auto</span>;
+                width: <span class="valorCodigo">30vw</span>;
+                height: <span class="valorCodigo">auto</span>;
+            }
+            
+            <span class="seletorCodigo"> .containerSecundario img </span>{
+                width: <span class="valorCodigo">30%</span>;
+                max-width: <span class="valorCodigo">400px</span>;
+                border: <span class="valorCodigo">2px solid black</span>;
+            }
+        </code></pre>
+            </div>
+            <div class="codeContainer">
+                <pre><code>
+                <span class="exemploCodigo">// Exemplo de tipografia junto de seleção//</span>
+
+                <span class="seletorCodigo">#textoDoHeader</span> {
+                text-align: <span class="valorCodigo">center</span>;
+                font-family: <span class="valorCodigo">Roboto</span>;
+                font-style:<span class="valorCodigo"> Italic</span>;
+                }
+
+                <span class="seletorCodigo">.titulo</span>{
+                font-size: <span class="valorCodigo">24px</span>;
+                text-transform:<span class="valorCodigo"> uppercase</span>;
+                text-decoration: <span class="valorCodigo">underline</span>;
+                }
+
+                <span class="seletorCodigo"> #textoDoHeader h1 </span>{
+                font-weight: <span class="valorCodigo">900</span>;
+                color: <span class="valorCodigo">#000</span>;
+                word-spacing: <span class="valorCodigo">5px</span>;
+                }
+
+                <span class="seletorCodigo"> #textoDoHeader p a </span>{
+                font-weight: <span class="valorCodigo">700</span>;
+                 color: <span class="valorCodigo">red</span>;
+                text-decoration: <span class="valorCodigo">underline</span>;
+                }
+                </code></pre>
+            </div>
+        </section>
+    </section>
+    <section class="css3">
+
+        <div class="css3Header">
+            <img src="./images/CSS3.png" alt="">
+        </div>
+
+        <div class="resumoCSS3">
+            <p>Essa foi a atualização mais revolucionária do CSS, lançada entre o final dos anos 2000. Ela trouxe uma
+                série de mudanças significativas, especialmente com foco na responsividade (forma como a página se
+                molda a diferentes tamanhos),
+                permitindo que os sites se adaptassem de forma mais eficiente a diferentes tamanhos de tela e
+                dispositivos. Essa evolução marcou um grande avanço no desenvolvimento web, tornando as interfaces mais
+                flexíveis e dinâmicas.</p>
+        </div>
+        <div class="pricipaisPropriedades">
+            <div class="flexbox">
+                <h2>Flexbox</h2>
+                <p>O Flexbox, um novo meio de estruturar um contâiner, fazendo uma forma melhor e mais dinâmica de
+                    manipular seus elementos dentro do container, porém é unidimensional.</p>
+
+            </div>
+
+            <div class="grid">
+                <h2>Grid Layout</h2>
+                <p> semelhante ao grid, mas bidimensional, ou seja, ele manipula tanto linhas, quanto colunas, sendo um
+                    Flexbox, para estruturações mais “complexas”. Para estruturar você define o tamanho e quantidade,
+                    tanto de colunas quanto de linhas, depois define item por item a quantia que ele ocupará.</p>
+            </div>
+
+            <div class="media">
+                <h2>Media Querries</h2>
+                <p>Media Queries, a principal ferramenta para a responsividade, ela permite que coloque aplicações
+                    especificas para específicos tamanhos de tela.</p>
+
+                <pre><code><span class="valorCodigo">@media</span> (condição) {
+ <span class="exemploCodigo">/* Regras CSS aplicadas quando
+     a condição for verdadeira */</span>
+          <span class="seletorCodigo">seletor</span> {
+<span class="valorCodigo">propriedade: valor;</span> 
+    }
+}</code></pre>
+
+            </div>
+        </div>
+            <div class="css3Imagens">
+                <img src="./images/flex-direction.png" alt="">
+                <img src="./images/gridLayout.png" alt="">
+                <img src="./images/media.png" alt="">
+        </div>
+    </section>
+</body>
+
+</html>

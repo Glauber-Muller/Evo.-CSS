@@ -1,0 +1,41 @@
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(circle, #040778, #030850, #000);
+    border: 7px solid gainsboro;
+    border-radius: 2rem;
+    width: 70%;
+    height: 96vh;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    color: white;
+}
+.cabecalho img{
+    width: 25rem;
+    border-radius: 50%;
+    background: linear-gradient(#2397ef, #000, #151f6e);
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+.cabecalho h1{
+    font-size: 4rem;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: 5px underline ;
+}
+.cabecalho p{
+    font-size: 2.5rem;
+    font-weight: 500;
+    width: 82%;
+    color: lightgray;
+}
+.cabecalho h3{
+    font-size: 3rem;
+    font-style: italic;
+    align-self: flex-end;
+    text-decoration: underline;
+    margin-top: -1rem;
+}

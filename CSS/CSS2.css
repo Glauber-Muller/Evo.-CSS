@@ -1,0 +1,68 @@
+.css2 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 7px solid white;
+    border-radius: 3rem;
+    padding: 0 5rem;
+    background-image: radial-gradient(circle, #04075a, #040837, #000);
+}
+
+.css2 .titulo h2 {
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.css2 .titulo h3 {
+    font-size: 3rem;
+    align-self: center;
+    margin-top: -3.5rem;
+    font-weight: 600;
+    color: lightslategray;
+}
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.conteudo div{
+    width: 30%;
+    height: auto;
+    border: 3px solid #8a99a7;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: #252836;
+}
+.conteudo h3{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.conteudo p{
+    font-size: 2rem;
+    text-align: start;
+    padding: .5rem;
+    font-weight: 300;
+}
+.codeCSS2{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+.codeCSS2 .codeContainer{
+    height: auto;
+    width: 40vw;
+    margin: 2rem;
+    padding-bottom: 3rem;
+}
