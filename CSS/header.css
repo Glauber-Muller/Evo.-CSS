@@ -13,29 +13,30 @@
     color: white;
 }
 .cabecalho img{
-    width: 25rem;
+    width: 16rem;
     border-radius: 50%;
     background: linear-gradient(#2397ef, #000, #151f6e);
     box-sizing: border-box;
     margin-top: 1rem;
 }
 .cabecalho h1{
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-style: italic;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: 5px underline ;
 }
 .cabecalho p{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 500;
     width: 82%;
     color: lightgray;
+    margin-top: -16px;
 }
 .cabecalho h3{
-    font-size: 3rem;
+    font-size: 2rem;
     font-style: italic;
     align-self: flex-end;
     text-decoration: underline;
-    margin-top: -1rem;
+    margin-top: -50px;
 }
