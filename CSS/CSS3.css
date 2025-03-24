@@ -32,11 +32,11 @@
 .pricipaisPropriedades{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
 }
 .css3Imagens{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
